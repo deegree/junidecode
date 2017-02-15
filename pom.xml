@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>gcardone</groupId>
+    <groupId>org.deegree</groupId>
     <artifactId>junidecode</artifactId>
     <packaging>jar</packaging>
-    <version>0.2</version>
+    <version>0.2-SNAPSHOT</version>
     <name>junidecode</name>
     <licenses>
         <license>
@@ -16,7 +16,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/gcardone/junidecode.git</url>
+        <url>https://github.com/deegree/junidecode.git</url>
     </scm>
 
     <developers>
@@ -32,7 +32,7 @@
         </developer>
     </developers>
 
-    <url>https://github.com/gcardone/junidecode</url>
+    <url>https://github.com/deegree/junidecode</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -108,4 +108,14 @@
 
         </plugins>
     </build>
+    <distributionManagement>
+      <repository>
+        <id>deegree-releases</id>
+        <url>http://repo.deegree.org/content/repositories/releases/</url>
+      </repository>
+      <snapshotRepository>
+        <id>deegree-snapshots</id>
+        <url>http://repo.deegree.org/content/repositories/snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
 </project>
