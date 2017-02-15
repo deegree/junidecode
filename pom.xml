@@ -16,7 +16,10 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/deegree/junidecode.git</url>
+        <connection>scm:git:git@github.com:deegree/junidecode.git</connection>
+        <developerConnection>scm:git:git@github.com:deegree/junidecode.git</developerConnection>
+        <url>https://github.com/deegree/junidecode</url>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
